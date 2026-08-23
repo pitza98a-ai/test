@@ -1,0 +1,226 @@
+<body class="bg-[#121826] text-white">
+
+    <main class="max-w-[1100px] mx-auto px-6 py-6">
+
+        <!-- Hero -->
+        <section class="flex justify-between items-center">
+
+            <div>
+                <h1 class="text-3xl font-bold">
+                    Redeem
+                </h1>
+
+                <p class="text-blue-200 max-w-[500px]">
+                    Discover new products and hundreds of ways
+                    to redeem Rewards points
+                </p>
+            </div>
+
+
+            <div class="
+                w-[500px]
+                h-[155px]
+                border border-gray-600
+                rounded-3xl
+                p-5
+            ">
+
+                <p class="text-blue-200">
+                    Set a Rewards goal
+                </p>
+
+                <h2 class="font-bold mt-7">
+                    Choose a gift card or donation as your goal
+                </h2>
+
+                <p class="text-blue-300 mt-8 text-sm">
+                    Browse rewards →
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Navigation -->
+        <nav class="flex gap-8 mt-12">
+
+            <a href="#" class="border-b-2 pb-2">
+                Featured
+            </a>
+
+            <a href="#">Gift cards</a>
+            <a href="#">Donate</a>
+            <a href="#">Sweepstakes</a>
+
+        </nav>
+
+
+        <!-- Section -->
+        <section class="mt-14">
+
+            <div class="flex justify-between items-center">
+
+                <h2 class="text-xl font-bold">
+                    Gift cards
+                </h2>
+
+                <div class="flex gap-2">
+
+                    <button class="
+                        w-10 h-10
+                        rounded-xl
+                        bg-[#273149]
+                    ">
+                        🔍
+                    </button>
+
+                    <button class="
+                        px-4
+                        rounded-xl
+                        bg-[#273149]
+                    ">
+                        View all
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Featured Card -->
+            <article class="
+                mt-3
+                p-3
+                border border-gray-600
+                rounded-3xl
+                flex gap-4
+            ">
+
+                <img
+                    src="roblox.jpg"
+                    class="
+                        w-1/2
+                        rounded-xl
+                        object-cover
+                    "
+                >
+
+                <div class="flex-1">
+
+                    <h3 class="font-bold">
+                        Roblox Digital Card
+                    </h3>
+
+                    <p class="text-blue-200 mt-2">
+                        Redeem for Robux and get new
+                        accessories, emotes, and more
+                        for your Roblox avatar!
+                    </p>
+
+                    <div class="mt-40">
+
+                        <div class="flex justify-between">
+                            <span class="font-bold">
+                                13,400
+                            </span>
+
+                            <span class="text-sm">
+                                7,936 to go
+                            </span>
+                        </div>
+
+                        <div class="h-1 bg-gray-600 rounded-full mt-2">
+                            <div class="
+                                h-full
+                                w-[45%]
+                                bg-white
+                                rounded-full
+                            "></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- Product Grid -->
+            <div class="
+                grid
+                grid-cols-4
+                gap-3
+                mt-3
+            ">
+
+                <article class="border rounded-2xl p-3">
+                    <img
+                        src="overwatch.jpg"
+                        class="w-full rounded-xl"
+                    >
+
+                    <h3 class="font-bold mt-3">
+                        Overwatch Coins Digital Code
+                    </h3>
+
+                    <p class="font-bold mt-3">
+                        5,000 pts
+                    </p>
+                </article>
+
+
+                <article class="border rounded-2xl p-3">
+                    <img
+                        src="sea.jpg"
+                        class="w-full rounded-xl"
+                    >
+
+                    <h3 class="font-bold mt-3">
+                        Sea of Thieves
+                    </h3>
+
+                    <p class="font-bold mt-3">
+                        1,700 pts
+                    </p>
+                </article>
+
+
+                <article class="border rounded-2xl p-3">
+                    <img
+                        src="gift.jpg"
+                        class="w-full rounded-xl"
+                    >
+
+                    <h3 class="font-bold mt-3">
+                        Central Group Gift Card
+                    </h3>
+
+                    <p class="font-bold mt-3">
+                        8,255 pts
+                    </p>
+                </article>
+
+
+                <article class="border rounded-2xl p-3">
+                    <img
+                        src="grab.jpg"
+                        class="w-full rounded-xl"
+                    >
+
+                    <h3 class="font-bold mt-3">
+                        Grab Gift Card
+                    </h3>
+
+                    <p class="font-bold mt-3">
+                        4,425 pts
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
