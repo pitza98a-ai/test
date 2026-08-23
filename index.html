@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoloSafe</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/suit.png">
+    
+
+</head>
+<body class="bg-[#ffffff] overflow-x-hidden">
+    
+    <header>
+
+        <nav class="fixed top-0 left-0 w-full z-50
+                bg-[#EEEEEE]
+                flex items-center
+                h-[70px]
+                px-3
+                md:px-[30px]">
+
+            <!-- Logo -->
+            <div class="logo px-2 md:px-6 shrink-0">
+                <img
+                    src="./img/suit-and-tie-outfit.png"
+                    alt="My Web"
+                    class="w-9 h-9 md:w-10 md:h-10"
+                >
+            </div>
+
+
+            <!-- Menu -->
+            <div class="flex items-center gap-1 md:gap-6">
+
+                <a
+                    href="#"
+                    class="text-[#00ADB5]
+                        text-sm md:text-base
+                        transition-colors duration-300
+                        hover:bg-[#BCCCDC]
+                        rounded
+                        p-2">
+                    Home
+                </a>
+
+
+                <a
+                    href="#services"
+                    class="text-[#00ADB5]
+                        text-sm md:text-base
+                        transition-colors duration-300
+                        hover:bg-[#BCCCDC]
+                        rounded
+                        p-2">
+                    Service
+                </a>
+
+
+                <a
+                    href="#portfolio"
+                    class="text-[#00ADB5]
+                        text-sm md:text-base
+                        transition-colors duration-300
+                        hover:bg-[#BCCCDC]
+                        rounded
+                        p-2">
+                    Portfolio
+                </a>
+
+
+                <!-- Contact -->
+                <div class="relative group">
+
+                    <a
+                        href="#footer"
+                        class="inline-block
+                            text-[#00ADB5]
+                            text-sm md:text-base
+                            hover:bg-[#BCCCDC]
+                            hover:scale-105
+                            transition-all duration-300
+                            rounded
+                            p-2">
+                        CONTACT US
+                    </a>
+
+
+                    <!-- Dropdown -->
+                    <div
+                        class="absolute
+                            hidden
+                            group-hover:block
+                            top-full
+                            right-0
+                            bg-white
+                            shadow-lg
+                            rounded-lg
+                            p-2
+                            min-w-[150px]">
+
+                        <a
+                            href="#footer"
+                            class="block
+                                px-4 py-2
+                                hover:text-red-300
+                                hover:bg-gray-100
+                                hover:scale-105
+                                hover:shadow-lg
+                                transition-all duration-300">
+                            Web Design
+                        </a>
+
+                        <a
+                            href="#footer"
+                            class="block
+                                px-4 py-2
+                                hover:bg-gray-100
+                                hover:scale-105">
+                            Development
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    
+  
+
+    <main class="pt-[70px]">
+        
+        <!-- Banner -->
+            <div class="relative w-full h-[220px] overflow-hidden mb-5">
+
+                <img
+                    src="./img/BG_main_2.jpg"
+                    alt="SolaBodyguard"
+                    class="w-full h-full object-cover"
+                >
+
+                <div class="absolute inset-0 flex flex-col justify-end px-10 pb-8">
+
+                    <h1 class="text-4xl text-white font-bold drop-shadow-lg">
+                        Bodyguard
+                    </h1>
+
+                    <p class="text-white text-lg max-w-[700px] mt-2 drop-shadow-lg">
+                        ตามหาบริการบอดี้การ์ดมืออาชีพ
+                        <br>
+                        VIP BODYGUARD SERVICE THAILAND by SoloSafe – บริการเพื่อนร่วมเดินทางหรือ Bodyguard สำหรับคนเดินทางคนเดียว
+                    </p>
+
+                </div>
+
+            </div>
+   
+
+        <div class="max-w-[1100px] mx-auto px-10">
+
+            <div class="max-w-[950px] text-3xl rounded-2xl px-2 py-2 ">
+                <h1 class="text-4xl font-bold text-gray-900">
+                    Security Thailand by SoloSafe
+                </h1>
+                <p class="text-xl mt-3 leading-relaxed">
+                    ประสบการณ์ระดับสากล – ความเชี่ยวชาญในท้องถิ่น เราให้บริการลูกค้าระยะยาวหลายรายด้วยโซลูชัน บริการ และการสนับสนุนที่ครอบคลุมในระดับแนวหน้าของอุตสาหกรรม 
+                    พร้อมกับความสบายใจที่มาพร้อมกับการวางใจให้ผู้ให้บริการด้านความปลอดภัยชั้นนำรายเดียวดูแลความต้องการด้านความปลอดภัยทั้งหมดของคุณ
+                </p>
+            </div>
+
+            <div class="border-t border-gray-300 my-12"></div>
+
+            <div class="flex justify-end">
+                <div class="max-w-[700px] border-l border-gray-300 pl-8">
+
+                    <p class="text-2xl font-semibold leading-relaxed">
+                        บริการด้านความปลอดภัยของเราแสดงถึงมาตรฐานแบรนด์ระดับโลกและความคาดหวังของลูกค้าอย่างดี
+                    </p>
+                </div>
+            </div>
+                
+            
+        </div>
+        
+        <div id="services" class="max-w-[1100px]
+            mx-auto
+            px-5
+            py-8
+            md:px-5
+            md:py-10
+            scroll-mt-[90px]"
+            >
+
+            <h1 class="font-bold
+               text-xl
+               md:text-2xl"
+            >
+                Our Services
+            </h1>
+            <p class="text-cyan-700
+              text-3xl
+              md:text-5xl
+              pb-5
+              leading-tight
+              mt-2"
+            >
+                Security Guard Services We Offer
+            </p>
+        </div>    
+
+        <div class="max-w-[1100px] mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">   
+
+                <!-- Card 1 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B4.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Private Security
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">
+                            บริการรักษาความปลอดภัยส่วนตัวของเรา มอบการคุ้มครองอย่างรอบคอบและเป็นมืออาชีพสำหรับบุคคล ครอบครัว และทรัพย์สิน ไม่ว่าจะอยู่ที่บ้านหรือกำลังเดินทาง 
+                            เราจะดูแลความปลอดภัยของคุณด้วยความระมัดระวังและรอบคอบ
+                        </p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B10G.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Event Security
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">
+                            ตั้งแต่กิจกรรมสาธารณะขนาดใหญ่ไปจนถึงงานเลี้ยงส่วนตัว ทีมรักษาความปลอดภัยของเราจะจัดการควบคุมฝูงชน 
+                            จุดเข้าออก และความปลอดภัยในสถานที่จัดงาน 
+                            เพื่อให้มั่นใจว่างานของคุณดำเนินไปอย่างราบรื่นและปลอดภัย
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B6.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Armed Guards
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">
+                            เจ้าหน้าที่รักษาความปลอดภัยติดอาวุธของเราได้รับการฝึกฝนมาเพื่อรับมือกับสภาพแวดล้อมและสถานการณ์ที่มีความเสี่ยงสูง 
+                            และต้องการการตอบสนองอย่างฉับพลัน เหมาะสำหรับธุรกิจ บุคคลสำคัญ และสถานที่สำคัญที่ต้องการการคุ้มครองที่ชัดเจนและแข็งแกร่ง
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B2.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Unarmed Guards
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">
+                            เจ้าหน้าที่รักษาความปลอดภัยของเรามีความเป็นมืออาชีพ ตื่นตัว และได้รับการฝึกฝนมาเป็นอย่างดี โดยไม่มีอาวุธ 
+                            พวกเขาสามารถป้องกันและรักษาความปลอดภัยได้อย่างมีประสิทธิภาพสำหรับอาคารพาณิชย์ ชุมชนที่อยู่อาศัย และอื่นๆ
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B20.jpg" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Residential Security
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">
+                            เราปกป้องบ้านและชุมชนของคุณด้วยบริการรักษาความปลอดภัยสำหรับที่อยู่อาศัยตลอด 24 ชั่วโมง รวมถึงการลาดตระเวน การเฝ้าประตู และการตอบสนองอย่างรวดเร็วต่อกิจกรรมที่น่าสงสัย
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B17.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Commercial Security
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">                           
+                            ปกป้องธุรกิจของคุณด้วยโซลูชันรักษาความปลอดภัยเชิงพาณิชย์ที่ออกแบบมาโดยเฉพาะเพื่อป้องกันการโจรกรรม การทำลายทรัพย์สิน และการเข้าถึงโดยไม่ได้รับอนุญาตตลอด 24 ชั่วโมง
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B1.png" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            VIP & Personal Security
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">                      
+                            บริการรักษาความปลอดภัยส่วนบุคคลของเรา มอบการคุ้มครองระดับสูงสุดสำหรับเหล่าคนดังและบุคคลสำคัญระดับสูง รับประกันความปลอดภัยของคุณโดยไม่กระทบต่อความเป็นส่วนตัว
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="flex-1 bg-white rounded-2xl overflow-hidden">
+
+                    <div class="w-full h-[288px]">
+                        <img 
+                            src="./img/B22.jpg" 
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                    <!-- เนื้อหา -->
+                    <div class="text-center px-6 py-5">
+                        <h1 class="font-bold text-2xl mb-4">
+                            Bodyguard Services
+                        </h1>
+                        <p class="text-gray-500 leading-relaxed">                      
+                            บอดี้การ์ดของเรามีประสบการณ์ รอบคอบ และมีความสามารถทางกายภาพสูง เราให้บริการคุ้มครองอย่างใกล้ชิดระหว่างการเดินทาง การปรากฏตัว และกิจวัตรประจำวันด้วยความเป็นมืออาชีพอย่างแท้จริง
+                        </p>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="portfolio" class="max-w-[1200px] mx-auto px-5 py-10">
+
+            <div class="text-center mb-10">
+                <h1 class="text-cyan-700 font-semibold">
+                    ทำไมต้องเลือกเรา   
+                </h1>
+
+                <p class="text-2xl md:text-3xl font-bold mt-4 px-2">
+                    ทำไมต้องเลือกบริการรักษาความปลอดภัยของเราใน ประเทศไทย ?
+                </p>
+                
+                <p class="text-gray-500 mt-4 px-3">
+                    เมื่อพูดถึงบริการรักษาความปลอดภัย บริษัท Security Thailand by SoloSafe โดดเด่นในฐานะบริษัทรักษาความปลอดภัยชั้นนำที่ลูกค้าใน ประเทศไทย ไว้วางใจ
+                </p>
+            </div>
+                
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+
+                                    <!-- ================= LEFT ================= -->
+                <div class="space-y-6">
+                    <!-- Card 01 -->
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+                            <!-- Number -->
+                            <div class="absolute -right-1 -top-1
+                                w-14 h-14
+                                bg-black text-white
+                                rounded-full
+                                flex items-center justify-center
+                                text-xl font-bold
+                                border-4 border-white">
+                                01
+                            </div>
+
+                            <div class="text-4xl mb-4">
+                                📜
+                            </div>
+
+                            <h2 class="text-xl font-bold">
+                                Fully Insured
+                            </h2>
+
+                            <p class="text-gray-500 mt-3 leading-relaxed">
+                                เจ้าหน้าที่รักษาความปลอดภัยของเราทุกคนมีประกันภัยอย่างครบถ้วน ทำให้คุณอุ่นใจได้
+                            </p>
+                    </div>
+
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+
+                            <div class="absolute -right-1 -top-1
+                                w-14 h-14
+                                bg-black text-white
+                                rounded-full
+                                flex items-center justify-center
+                                text-xl font-bold
+                                border-4 border-white">
+                                02
+                            </div>
+
+                            <div class="text-4xl mb-4">
+                                ⏰
+                            </div>
+
+                            <h2 class="text-xl font-bold">
+                                24/7 Security Coverage
+                            </h2>
+
+                            <p class="text-gray-500 mt-3 leading-relaxed">
+                                เราพร้อมให้บริการคุณเสมอ ไม่ว่าจะเป็นกลางวันหรือกลางคืน พร้อมให้การคุ้มครองตลอด 24 ชั่วโมง
+                            </p>
+
+                    </div>
+
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+                            <div class="absolute -right-1 -top-1
+                            w-14 h-14
+                            bg-black text-white
+                            rounded-full
+                            flex items-center justify-center
+                            text-xl font-bold
+                            border-4 border-white">
+                            03
+                            </div>
+
+                            <div class="text-4xl mb-4">
+                                🛠️
+                            </div>
+
+                            <h2 class="text-xl font-bold">
+                                Customized Security Plans
+                            </h2>
+
+                            <p class="text-gray-500 mt-3 leading-relaxed">
+                                เราออกแบบบริการให้ตรงกับความต้องการด้านความปลอดภัยเฉพาะของคุณ
+                            </p>
+
+                    </div> 
+
+                </div>
+
+                <!-- ================= CENTER ================= -->
+                <div class="hidden lg:flex
+                            relative h-full min-h-[150px]
+                            items-center justify-center">
+
+                    <img
+                        src="./img/ai-generated-businessman-isolated-on-transparent-background-free-png (1).png"
+                        class="absolute
+                            w-[780px]
+                            max-w-none
+                            object-contain"
+                    >
+
+                </div>
+
+                <!-- ================= RIGHT ================= -->
+        <div class="space-y-6">
+
+                    <!-- Card 04 -->
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+
+                        <div class="absolute -right-1 -top-1
+                                    w-14 h-14
+                                    bg-black text-white
+                                    rounded-full
+                                    flex items-center justify-center
+                                    text-xl font-bold
+                                    border-4 border-white">
+                            04
+                        </div>
+
+                        <div class="text-4xl mb-4">
+                            🛡️
+                        </div>
+
+                        <h2 class="text-xl font-bold">
+                            Experienced Professionals
+                        </h2>
+
+                        <p class="text-gray-500 mt-3 leading-relaxed">
+                            เจ้าหน้าที่รักษาความปลอดภัยของเราผ่านการฝึกอบรมด้านความปลอดภัยอย่างเข้มงวดและมีประสบการณ์หลายปี
+                        </p>
+
+                    </div>
+
+
+                    <!-- Card 05 -->
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+
+                        
+                        <div class="absolute -right-1 -top-1
+                                    w-14 h-14
+                                    bg-black text-white
+                                    rounded-full
+                                    flex items-center justify-center
+                                    text-xl font-bold
+                                    border-4 border-white">
+                            05
+                        </div>
+
+                        <div class="text-4xl mb-4">
+                            ⚙️
+                        </div>
+
+                        <h2 class="text-xl font-bold">
+                            Expert Security Management
+                        </h2>
+
+                        <p class="text-gray-500 mt-3 leading-relaxed">
+                            ทีมงานของเราประกอบด้วยที่ปรึกษาด้านความปลอดภัยที่มีประสบการณ์สูงสำหรับการวางแผนเชิงกลยุทธ์และการพัฒนาระบบรักษาความปลอดภัย
+                        </p>
+
+                    </div>
+
+
+                    <!-- Card 06 -->
+                    <div class="relative bg-[#E1E4E5] p-6 rounded-tr-3xl rounded-bl-none">
+
+                        <div class="absolute -right-1 -top-1
+                                    w-14 h-14
+                                    bg-black text-white
+                                    rounded-full
+                                    flex items-center justify-center
+                                    text-xl font-bold
+                                    border-4 border-white">
+                            06
+                        </div>
+
+                        <div class="text-4xl mb-4">
+                            👤
+                        </div>
+
+                        <h2 class="text-xl font-bold">
+                            Comprehensive Security Solutions
+                        </h2>
+
+                        <p class="text-gray-500 mt-3 leading-relaxed">
+                            เราให้บริการด้านความปลอดภัยอย่างครบวงจรที่ธุรกิจและผู้อยู่อาศัยสามารถไว้วางใจได้
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <div class="relative w-full min-h-[350px] md:min-h-[220px] bg-black overflow-hidden">
+
+                <div class="absolute inset-0 flex flex-col justify-end items-center px-10 pb-8">
+
+                    <h1 class="text-4xl text-white text-center font-bold drop-shadow-lg ">
+                        ขอใบเสนอราคาบริการรักษาความปลอดภัยได้แล้ววันนี้
+                    </h1>
+
+                    <p class="text-white text-lg text-center max-w-[1100px] mt-2 drop-shadow-lg border-b-2 pb-3">
+                        ไม่ว่าคุณจะต้องการโซลูชันด้านความปลอดภัยระยะสั้นหรือระยะยาว 
+                        บริการรักษาความปลอดภัยในลอสแอนเจลิสของเราได้รับการออกแบบให้มีความน่าเชื่อถือ ราคาไม่แพง 
+                        และปรับแต่งได้อย่างเต็มที่ตามความต้องการของคุณ 
+                        ในฐานะหนึ่งในบริษัทรักษาความปลอดภัยที่ดีที่สุดในลอสแอนเจลิส 
+                        เราให้บริการให้คำปรึกษาด้านความปลอดภัยและบริการบริหารจัดการความปลอดภัยอย่างครบวงจร
+                    </p>
+
+                </div>
+
+    </div>
+
+    <section class="relative min-h-[700px] bg-[#000000] overflow-hidden">
+
+        <div class="max-w-[1200px] mx-auto h-full">
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 min-h-[700px]">
+
+
+                <!-- ================= LEFT ================= -->
+
+                <div class="hidden lg:block relative">
+
+                    <img
+                        src="./img/bodyguard-black-man.png"
+                        class="absolute
+                            bottom-0
+                            left-1/2
+                            -translate-x-1/2
+                            h-[700px]
+                            w-auto
+                            object-contain"
+                    >
+
+                </div>
+
+
+                <!-- ================= RIGHT ================= -->
+
+                <div class="px-5 py-10 lg:px-10 lg:py-14">
+
+                    <!-- Heading -->
+
+                    <p class="text-cyan-500 font-semibold mb-4">
+                        ยื่นการติดต่อ
+                    </p>
+
+                    <h1 class="text-white text-4xl font-bold mb-4">
+                        การจองและการติดต่อ
+                    </h1>
+
+                    <p class="text-white leading-relaxed mb-8">
+                        กรุณากรอกแบบฟอร์มด้านล่าง แล้วเราจะติดต่อกลับไปโดยเร็วที่สุดพร้อมข้อเสนอโดยละเอียดสำหรับบริการรักษาความปลอดภัยของคุณ
+                    </p>
+
+
+                    <!-- Form -->
+
+                    <form>
+
+                        <!-- Row 1 -->
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                            <div>
+                                <label class="block text-white mb-2">
+                                    Name <span class="text-cyan-500">*</span>
+                                </label>
+
+                                <input
+                                    type="text"
+                                    placeholder="Name"
+                                    class="w-full h-[50px]
+                                        px-4 rounded-lg
+                                        bg-white outline-none"
+                                >
+                            </div>
+
+
+                            <div>
+                                <label class="block text-white mb-2">
+                                    Email <span class="text-cyan-500">*</span>
+                                </label>
+
+                                <input
+                                    type="email"
+                                    placeholder="Email"
+                                    class="w-full h-[50px]
+                                        px-4 rounded-lg
+                                        bg-white outline-none"
+                                >
+                            </div>
+
+
+                            <!-- Row 2 -->
+
+                            <div>
+                                <label class="block text-white mb-2">
+                                    Phone <span class="text-cyan-500">*</span>
+                                </label>
+
+                                <input
+                                    type="text"
+                                    placeholder="Phone"
+                                    class="w-full h-[50px]
+                                        px-4 rounded-lg
+                                        bg-white outline-none"
+                                >
+                            </div>
+
+
+                            <div>
+                                <label class="block text-white mb-2">
+                                    Service <span class="text-cyan-500">*</span>
+                                </label>
+
+                                <select
+                                    class="w-full h-[50px]
+                                        px-4 rounded-lg
+                                        bg-white outline-none"
+                                >
+                                    <option>Select Service</option>
+                                    <option>Private Security</option>
+                                    <option>Event Security</option>
+                                    <option>Armed Guards</option>
+                                    <option>Unarmed Guards</option>
+                                    <option>Residential</option>
+                                    <option>Commercial Security</option>
+                                    <option>VIP & Personal Security</option>
+                                    <option>Bodyguard Services</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Message -->
+
+                        <div class="mt-5">
+
+                            <label class="block text-white mb-2">
+                                Message
+                            </label>
+
+                            <textarea
+                                rows="5"
+                                placeholder="Message"
+                                class="w-full
+                                    px-4 py-3
+                                    rounded-lg
+                                    bg-white
+                                    outline-none
+                                    resize-none"
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- Submit -->
+
+                        <button
+                            type="submit"
+                            class="mt-6
+                                bg-cyan-700
+                                hover:bg-cyan-800
+                                text-white
+                                px-8 py-3
+                                transition"
+                        >
+                            Submit
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+    <footer id="footer" class="bg-[#000000]
+           min-h-[200px]
+           px-5
+           py-8
+           flex
+           flex-col
+           items-center
+           justify-center
+           gap-6
+           md:relative
+           md:min-h-[200px]">
+           
+         <p class="text-center
+          text-white
+            text-sm
+            md:text-base">
+
+            Tel: +66 099-999-9999<br>
+            Email: xxxxxxxxxx@gmail.com<br>
+            Contact person : Mr. xxxxx xxxxxx<br>
+         </p>
+
+         <p class="text-center
+              text-xs
+              text-cyan-500
+              md:absolute
+              md:bottom-3
+              md:right-5
+              md:text-sm">
+            Designed and Marketing by Nateethon khamthong
+         </p>
+    </footer>
+
+    <script src="./css/script.js"></script>
+</body>
+</html>
